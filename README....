@@ -1,0 +1,18 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local Window = Library:NewWindow("Mr_zik Script Hub")
+
+local Section = Window:NewSection("Main Functions")
+
+Section:CreateButton("Собрать кнопки (Collect)", function()
+    for _, v in ipairs(workspace:GetDescendants()) do
+       if v:IsA("BasePart") and string.find(v.Name, "CollectButton") then
+          v:PivotTo(game.Players.LocalPlayer.Character:GetPivot())
+       end
+    end
+end)
+
+Section:CreateButton("Ускорение (Speed)", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 70
+    print("Скорость установлена на 70")
+end)
