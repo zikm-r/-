@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Window = Library:NewWindow("Mr_zik Script Hub")
+local Section = Window:NewSection("Main Functions")
+
+-- Переменная для контроля цикла сбора
+local autoCollect = false
+
+Section:CreateToggle("Авто-сбор кнопок", function(state)
+    autoCollect = state
+    if autoCollect then
+        print("Авто-сбор включен")
+        -- Запускаем цикл в отдельном потоке, чтобы не вешать скрипт
+        task.spawn(function()
+            while autoCollect do
+                for _, v in ipairs(workspace:GetDescendants()) do
+                    if v:IsA("BasePart") and string.find(v.Name, "CollectButton") then
+                        v:PivotTo(game.Players.LocalPlayer.Character:GetPivot())
+                    end
+                end
+                task.wait(0.5) -- Задержка, чтобы не лагало
+            end
+        end)
+    else
+        print("Авто-сбор выключен")
+    end
+end)
+
+Section:CreateToggle("Быстрый бег", function(state)
+    local humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        if state then
+            humanoid.WalkSpeed = 70
+            print("Скорость: 70")
+        else
+            humanoid.WalkSpeed = 16 -- Стандартная скорость Roblox
+            print("Скорость: Стандартная")
+        end
+    end
+end)
