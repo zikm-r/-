@@ -1,0 +1,101 @@
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(680.314087, 26.071972, 96.173012)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(753.838562, 28.071972, 96.565994)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(755.200684, 28.071972, 9.133285)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(755.206909, 28.071972, -61.108646)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.929443, 28.071972, -131.052841)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(755.325134, 28.071985, -210.933975)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(755.655090, 26.071972, -269.913666)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.475281, 26.071972, -332.609436)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.216919, 26.071972, -383.095581)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(756.665466, 25.071972, -424.013458)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(753.826721, 25.071972, -522.275635)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(752.961304, 26.071987, -578.998047)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.361206, 26.071972, -626.085510)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(752.186157, 26.039764, -697.487305)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.439331, 26.071972, -747.565247)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.108582, 25.071972, -787.282410)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.641113, 25.071972, -840.977600)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(753.852905, 26.061306, -899.880615)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.366089, 26.071972, -944.754395)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.366089, 26.071972, -944.754395)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.515259, 74.071968, -1062.787109)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(754.280518, 74.071960, -1101.546997)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(752.308167, 74.071968, -1158.247437)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(752.579834, 75.071991, -1214.786743)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(753.265930, 75.071968, -1258.418579)))
+
+task.wait(2.5)
+
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(753.864685, 74.071968, -1336.920288)))
